@@ -95,7 +95,7 @@ article.card-cat {
     width: 30%;
     height: 350px;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
     border-radius: 5px;
     margin-bottom: 40px;
@@ -192,13 +192,16 @@ section.cards {
 
     /* Categorias */
 
-    
+    article.card-cat {
+        width: 80%;
+        margin: 8px;
+    }
     
 
     /* Vantagens */
 
     .cards article {
-        width: 90%;
+        width: 80%;
         margin: 8px;
     }
 
