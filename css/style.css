@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #E5F0FF;
+    background-color: #f1f1f1;
 }
 
 nav {
@@ -15,6 +15,12 @@ nav {
     background-color: #5199FF;
     text-align: center;
     height: 70px;
+}
+
+#imob {
+    color: #f1f1f1;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
 }
 
 nav ul {
@@ -92,7 +98,7 @@ section.categorias {
 
 article.card-cat {
     float: left;
-    width: 30%;
+    width: 30.333%;
     height: 350px;
     margin: 10px;
     padding: 10px;
@@ -141,7 +147,7 @@ section.cards {
 .cards article {
     float: left;
     text-align: center;
-    width: 30%;
+    width: 30.333%;
     padding: 10px;
     margin: 10px;
     height: 260px;
@@ -149,6 +155,7 @@ section.cards {
     border-radius: 15px;
     overflow: hidden;
     background-color: #f1f1f1;
+    margin-bottom: 80px;
 }
 
 .cards article:hover {
@@ -159,6 +166,51 @@ section.cards {
 .cards article p {
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 40px;
+    color: #222222;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer input {
+    text-align: center;
+    border: 2px solid #F5E027;
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer button {
+    height: 40px;
+    width: 10%;
+    border-radius: 10px;
+    color: #222222;
+    background-color: #F5E027;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    outline-style: none;
+    border:none!important;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer button:hover {
+    background-color: #222222;
+    color: #F5E027;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -177,7 +229,7 @@ section.cards {
     }
 
     nav ul li a {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 200;
     }
 
@@ -193,16 +245,39 @@ section.cards {
     /* Categorias */
 
     article.card-cat {
-        width: 80%;
+        width: 85%;
         margin: 8px;
+        height: 260px;
+        margin-bottom: 40px;
     }
     
 
     /* Vantagens */
 
     .cards article {
-        width: 80%;
+        width: 85%;
         margin: 8px;
+        margin-bottom: 20px;
+    }
+
+    footer h2 {
+        font-size: 16px;
+    }
+
+    footer input {
+        width: 80%;
+        margin-bottom: 10px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    footer button {
+        height: 40px;
+        width: 30%;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 
   }
