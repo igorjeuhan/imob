@@ -93,7 +93,6 @@ section.categorias {
 }
 
 .cat-title {
-    padding: 25px;
     margin-top: 20px;
     height: 100%;
     width: 100%;
@@ -231,7 +230,8 @@ footer p {
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 400px) {
+/* Mobile */
+@media only screen and (max-width: 600px) {
 
     nav {
         height: auto;
@@ -265,7 +265,7 @@ footer p {
     article.card-cat {
         width: 85%;
         margin: 8px;
-        height: 260px;
+        height: 100%;
         margin-bottom: 40px;
     }
     
@@ -300,39 +300,16 @@ footer p {
 
   }
 
-@media only screen and (min-width: 900px) {
-    nav {
-        height: auto;
-    }
+/* Desktop */
 
-    nav ul {
-        text-align: center;
-    }
-
-    nav ul li {
-        border-bottom: 1px solid #F5E027;
-    }
-
-    nav ul li a {
-        font-size: 18px;
-        font-weight: 200;
-    }
-
-    nav ul li:hover ul {
-        display: block;
-        z-index: 999;
-    }
-
-    #logo {
-        display: none;
-    }
+@media only screen and (min-width: 768px) {
 
     /* Categorias */
 
     article.card-cat {
-        width: 30%;
+        width: 31%;
         margin: 4px;
-        height: 260px;
+        height: 310px;
         margin-bottom: 40px;
     }
     
@@ -340,30 +317,10 @@ footer p {
     /* Vantagens */
 
     .cards article {
-        width: 30%;
+        width: 31%;
+        height: 300px;
         margin: 4px;
         margin-bottom: 20px;
-        height: 100%;
-    }
-
-    footer h2 {
-        font-size: 16px;
-    }
-
-    footer input {
-        width: 80%;
-        margin-bottom: 10px;
-        height: 30px;
-        font-size: 16px;
-    }
-
-    footer button {
-        height: 40px;
-        width: 30%;
-    }
-
-    footer p {
-        font-size: 12px;
     }
 
 
