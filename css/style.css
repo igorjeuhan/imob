@@ -263,8 +263,7 @@ footer p {
     /* Categorias */
 
     article.card-cat {
-        width: 85%;
-        margin: 8px;
+        width: 93%;
         height: 100%;
         margin-bottom: 40px;
     }
@@ -273,8 +272,7 @@ footer p {
     /* Vantagens */
 
     .cards article {
-        width: 85%;
-        margin: 8px;
+        width: 93%;
         margin-bottom: 20px;
     }
 
@@ -307,8 +305,8 @@ footer p {
     /* Categorias */
 
     article.card-cat {
-        width: 31%;
-        margin: 4px;
+        width: 31.2%;
+        margin: 2px;
         height: 310px;
         margin-bottom: 40px;
     }
@@ -317,9 +315,9 @@ footer p {
     /* Vantagens */
 
     .cards article {
-        width: 31%;
+        width: 31.2%;
         height: 300px;
-        margin: 4px;
+        margin: 2px;
         margin-bottom: 20px;
     }
 
