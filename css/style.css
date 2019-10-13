@@ -230,6 +230,19 @@ footer p {
     margin-bottom: 10px;
 }
 
+
+article.Contato{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+article.Sobre{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
 /* Mobile */
 @media only screen and (max-width: 600px) {
 
